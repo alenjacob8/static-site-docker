@@ -11,4 +11,8 @@ Prerequisities
 
 <code>echo 'Defaults:jenkins !requiretty' >> /etc/sudoers</code></br>
 
+Add Jenkins to Docker user group
+-------------------------------
 <code>sudo usermod -a -G docker jenkins</code></br>
+
+<code>sudo systemctl restart jenkins</code></br>
